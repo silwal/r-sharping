@@ -1,37 +1,43 @@
 # R Cheat Sheet
 ## Will update as I go.
-
-*Install Packages:
+<ul>
+<li>Install Packages:
 <code>
 install.packages("package_name")
 </code>
+</li>
 
-*Load Packages:
+<li>Load Packages:
 <code>
 library(package_name)
 </code>
+</li>
 
-*Get Working Directory:
+<li>Get Working Directory:
 <code>
 getwd()
 </code>
+</li>
  
-*Read CSV:
+<li>Read CSV:
 <code>
 read.csv("file_name_which_is_in_my_WD")
 </code>
+</li>
  
-*Get List of Directory & Files in WD:
+<li>Get List of Directory & Files in WD:
 <code>
 dir()
 </code>
+</li>
  
-*List Functions:
+<li>List Functions:
 <code>
 ls()
 </code>
+</li>
  
-*Load R code in the Console:
+<li>Load R code in the Console:
 <code>
 source("code_file_name.R")
 </code>
@@ -40,9 +46,11 @@ source("code_file_name.R")
 <code>
 ls()
 </code>
+</li>
 
-*To Clear your console:
+<li>To Clear your console:
 <code>
 CTRL + L
 </code>
+</li>
 
