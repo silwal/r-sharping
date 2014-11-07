@@ -1,49 +1,48 @@
 # R Cheat Sheet
 ## Will update as I go.
 
-<p>Install Packages:</p> 
-<pre><code>
+*Install Packages:
+<code>
 install.packages("package_name")
-</code></pre>
+</code>
 
-<p>Load Packages:</p> 
-<pre><code>
+*Load Packages:
+<code>
 library(package_name)
-</code></pre>
+</code>
 
-<p>Get Working Directory:</p>
-<pre><code>
+*Get Working Directory:
+<code>
 getwd()
-</code></pre>
+</code>
  
-<p>Read CSV:</p>
-<pre><code>
+*Read CSV:
+<code>
 read.csv("file_name_which_is_in_my_WD")
-</code></pre>
+</code>
  
-<p>Get List of Directory & Files in WD:</p>
-<pre><code>
+*Get List of Directory & Files in WD:
+<code>
 dir()
-</code></pre>
+</code>
  
-<p>List Functions:</p>
-<pre><code>
+*List Functions:
+<code>
 ls()
-</code></pre>
+</code>
  
-<p>Load R code in the Console:</p>
-<pre><code>
+*Load R code in the Console:
+<code>
 source("code_file_name.R")
-</code></pre>
- 
+</code>
 <p>This way you can use functions present in your R file.</p>
 <p>To see the list of functions loaded in the console, hit:</p>
-<pre><code>
+<code>
 ls()
-</code></pre>
+</code>
 
-<p>To Clear your console: </p>
-<pre><code>
+*To Clear your console:
+<code>
 CTRL + L
-</code></pre>
+</code>
 
