@@ -1,4 +1,9 @@
-# This could be a cheat sheet for packages I have used.
-	** Package : graphics **
-		**_Functions in this Package_**
-			[plot(data_set,type,col)](http://stat.ethz.ch/R-manual/R-patched/library/graphics/html/plot.html "Documentation")
+# This could be a cheat sheet for packages.
+
+----
+## Package : graphics
+**Functions in this Package**
+
+    plot(data_set,type,col)
+
+see [Documentation](http://stat.ethz.ch/R-manual/R-patched/library/graphics/html/plot.html)
