@@ -1,7 +1,7 @@
 r-sharping
 ==========
+[R Data Camp](https://www.datacamp.com/courses/data-analysis-and-statistical-inference_mine-cetinkaya-rundel-by-datacamp).
 
-random r practices.
 
 ## Lesson Learned
 
