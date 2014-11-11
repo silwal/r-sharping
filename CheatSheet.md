@@ -124,40 +124,70 @@ plot(variable_name_1,variable_name_2,type="l")
 <p>Type can be l,o etc.Refer documentation for more details.</p>
 </li>
 
-
-<li>
+<li>Plot a bar graph for Categoical data. E.g. plotting gender barplot.
 <code>
+barplot(data_frame_name$column_name)
 </code>
 <p></p>
 </li>
 
 
-<li>
+<li>Plot a mosaicplot.
 <code>
+mosaicplot(table(data_frame_name$column_name,data_frame_name$column_name))
 </code>
 <p></p>
 </li>
 
 
-<li>
+<li> Load .Rdata from url.
 <code>
+load(url("url_to_the_.Rdata_file"))
+</code>
+<p>One could always assign to a variable while loading.</p>
+</li>
+
+
+<li> To get the names of the variables. Or names that represent values in the column.
+<code>
+names("name_of_the_data_frame_or_Matrix")
 </code>
 <p></p>
 </li>
 
 
-<li>
+<li> If the data set is very large, to look at first few and last few data set use :
 <code>
+head("name_of_the_data_frame_or_Matrix")
+</code>
+Or
+<code>
+tail("name_of_the_data_frame_or_Matrix")
 </code>
 <p></p>
 </li>
 
 
-
-<li>
+<li>Turning info into knowledge - Numerical data. Find mean, median, variance etc.
 <code>
+mean(dataSet$column_name)
+var(dataSet$column_name)
+median(dataSet$column_name)
+summary(dataSet$column_name)
 </code>
-<p></p>
+<p>Summary gives bunch of data in free.</p>
+</li>
+
+
+<li> For Categorical data, we may want to get a count. This can be done using table() function.
+<code>
+table(data_frame_name$column_name)
+</code>
+<p>Use multiple columns to get a table with respective data</p>
+<code>
+table(data_frame_name$column_name, data_frame_name$column_name)
+</code>
+<p>To find relative frequency device the result from the table() function by total number of observations in the data frame.</p>
 </li>
 
 
