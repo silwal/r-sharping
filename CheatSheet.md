@@ -130,6 +130,7 @@ barplot(data_frame_name$column_name)
 </code>
 <p></p>
 </li>
+<<<<<<< HEAD
 
 
 <li>Plot a mosaicplot.
@@ -196,34 +197,3 @@ table(data_frame_name$column_name, data_frame_name$column_name)
 </code>
 <p></p>
 </li>
-
-
-<li>
-<code>
-</code>
-<p></p>
-</li>
-
-
-<li>
-<code>
-</code>
-<p></p>
-</li>
-
-<li>
-<code>
-</code>
-<p></p>
-</li>
-
-<li>
-<code>
-</code>
-<p></p>
-</li>
-
-
-
-
-
